@@ -1,7 +1,14 @@
+.cores {
+  color: hsl(225, 100%, 94%);
+  color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  color: hsl(223, 47%, 23%);
+}
 body,
 p,
 h1,
-h4 {
+h2 {
   margin: 0;
 }
 button {
@@ -62,7 +69,8 @@ p {
   padding: 20px;
   border-radius: 10px;
 }
-.planos div h4 {
+.planos div h2 {
+  font-size: 16px;
   font-weight: 900;
 }
 .planos div span {
