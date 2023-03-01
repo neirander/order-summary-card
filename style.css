@@ -1,0 +1,121 @@
+.cores {
+  color: hsl(225, 100%, 94%);
+  color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  color: hsl(223, 47%, 23%);
+}
+body,
+p,
+h1,
+h4 {
+  margin: 0;
+}
+button {
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: top center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  overflow-x: hidden;
+}
+main {
+  max-width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin: 40px;
+}
+.illustration {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.conteudo {
+  padding: 40px 30px;
+  color: hsl(223, 47%, 23%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h1 {
+  font-weight: 900;
+}
+p {
+  color: hsl(224, 23%, 55%);
+}
+.planos {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  text-align: left;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+}
+.planos div h4 {
+  font-weight: 900;
+}
+.planos div span {
+  color: hsl(224, 23%, 55%);
+}
+.planos a {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  text-align: right;
+}
+button {
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px 50px;
+  color: hsl(225, 100%, 98%);
+  font-weight: 900;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 40px -7px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+button:hover {
+  background-color: hsla(245, 75%, 52%, 0.9);
+}
+.cancel {
+  color: hsla(224, 23%, 55%, 0.8);
+  margin-top: 25px;
+  text-decoration: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+.cancel:hover {
+  color: hsla(224, 23%, 55%, 0.6);
+}
+@media (max-width: 600px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+}
+@media (max-width: 400px) {
+  .planos {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 10px;
+  }
+  .planos a {
+    text-align: center;
+  }
+  .planos img {
+    margin-left: calc(50% - (48px / 2));
+  }
+}
