@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/neirander/order-summary-card](https://github.com/neirander/order-summary-card)
+- Live Site URL: [https://neirander.github.io/order-summary-card](https://neirander.github.io/order-summary-card/)
 
 ## My process
 
